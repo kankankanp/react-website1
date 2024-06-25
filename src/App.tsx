@@ -47,7 +47,7 @@ function App() {
       });
     }
     fetchData();  
-    setCity('');
+    setCity(city);
   }
 
 

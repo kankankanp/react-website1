@@ -19,18 +19,26 @@ export default {
           },
         },
       },
-      rotate: {
-        'rotate-y--180': {
-          transform: 'rotateY(-180deg)',
-        },
-        'rotate-y-180': {
-          transform: 'rotateY(180deg)'
-        },
-        'rotate-y-0': {
-          transform: 'rotateY(0)'
-        }
-      }
+      // rotate: {
+      //   'rotate-y--180': {
+      //     transform: 'rotateY(-180deg)',
+      //   },
+      //   'rotate-y-180': {
+      //     transform: 'rotateY(180deg)'
+      //   },
+      //   'rotate-y-0': {
+      //     transform: 'rotateY(0)'
+      //   }
+      // }
+
+      screens: {
+        'sm': {'max': '640px'},
+        'md': {'max': '768px'},
+        'lg': {'max': '1024px'},
+        'xl': {'max': '1280px'},
+        '2xl': {'max': '1536px'}
+      },
     },
-  },
   plugins: [],
-};
+  }
+}
